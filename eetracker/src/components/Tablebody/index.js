@@ -11,6 +11,8 @@ function Tablebody({ users }) {
                     <tr key={user.email}>
                         <td>{user.email}</td>
                         <td>{user.name.first}</td>
+                        <td>{user.name.last}</td>
+                        <td>{user.title}</td>
                     </tr>
                 );
             })}

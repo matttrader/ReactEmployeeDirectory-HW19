@@ -5,7 +5,7 @@ function Table(props){
     return (
        <table>
            <thead>
-               <tr> Email</tr>
+               <tr>E-mail Address</tr>
            </thead>
            <Tablebody users={props.users}/>
        </table>
